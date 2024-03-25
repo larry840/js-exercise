@@ -1,0 +1,20 @@
+/* 絪糶isUpperCaseㄧΑ斑把计琌String
+ㄤㄓ浪琩把计いString材ダ琌糶
+isUpperCase("ABCD"); // returns true
+isUpperCase(""); // returns false
+isUpperCase("aBCD"); // returns false */
+
+function isUpperCase(str) {
+    if (str.length == 0) {
+        return false;
+    }
+
+    if (str[0] == str[0].toUpperCase()) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isUpperCase("ABCD")); // returns true
+console.log(isUpperCase("")); // returns false
+console.log(isUpperCase("aBCD")); // returns false
